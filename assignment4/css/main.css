@@ -9,6 +9,7 @@ body{
 	background-image: url(../img/back.png);
 	background-repeat: repeat-x;
 	background-color: #AABBCD;
+	width: 100%;
 }
 
 #social_large{
@@ -57,7 +58,8 @@ nav{
 	background-position: center;
 	border-radius: 1em;
 	padding-left: 6em;
-	margin-left: 5em;
+	left: 50%;
+	margin-left: -525px;
 }
 
  nav img{

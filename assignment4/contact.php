@@ -48,8 +48,7 @@
                     
                     <p>
                         <label for="message">MESSAGE:</label>
-                        <textarea name="message" rows="8" cols="45">
-                        </textarea>
+                        <textarea name="message" rows="8" cols="45"></textarea>
                     </p>
                     
                     <p>

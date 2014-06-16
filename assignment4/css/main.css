@@ -1,0 +1,399 @@
+/* CSS Document */
+/*For ALL CSS*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/back.png);
+	background-repeat: repeat-x;
+	background-color: #AABBCD;
+}
+
+#social_large{
+	height: 180px;
+	position: fixed;
+	bottom: 0px; 
+	float: right;
+	margin-left: 52em;
+}
+
+#social_large img{
+	margin-left: 4em;
+}
+
+#social_small{
+	height: 100px;
+	position: fixed;
+	bottom: 0px; 
+	float: right;
+	margin-left: 45em;
+}
+
+#social_small img{
+	margin-left: 2em;
+}
+
+#wrap{
+	background-color: #c61e18;
+	background-position: center;
+	margin: auto;
+	padding-bottom: 2em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	width: 1000px;
+	height: 850px;
+	border-radius: 1em;
+}
+
+nav{
+	height: 100px;
+	width: 1050px;
+	background-color: #607547;
+	position: fixed;
+	bottom: 0px;
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 1em;
+	padding-left: 6em;
+	margin-left: 5em;
+}
+
+ nav img{
+	  padding: 1em;
+ }
+ 
+ header{
+	 background-position: center;
+	 margin: 1em;
+ }
+ 
+ h1{
+	 font-family: "Amaranth", sans-serif;
+	 text-transform: uppercase;
+	 color: #f3d3b1;
+	 text-align: center;
+	 font-size: 4em;
+ }
+ 
+ h2{
+	 margin-bottom: 1em;
+ }
+ 
+  footer{
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 10em;
+	width: 1000px;
+	float: clear;
+	background-color: #c61e18;
+	border-radius: 1em;
+	color: #f3d3b1;
+	font-family: 'Lato', sans-serif;
+ }
+ 
+ .gnome{
+	 float: left;
+	 margin-left: 1em;
+ }
+ 
+/*Home Page CSS*/
+ #info1{
+	width: 260px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ #info1 p a{
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+ }
+ 
+  #info2{
+	width: 260px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ #info2 p a{
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+ }
+ 
+ #info3{
+	width: 900px;
+	padding: 1em;
+	margin-top: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+	float: left;
+	text-align: center;
+ }
+ 
+ #vid{
+	width: 300px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ #map{
+	padding: 1em;
+	margin-top: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+	margin-left: 250px;
+ }
+ 
+ .link1{
+	padding: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;
+	float: right;
+	background-color: #c61e18;
+	border-radius: .25em;
+	color: #f3d3b1;!important
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+ }
+ 
+  .link2{
+	padding: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;
+	float: right;
+	background-color: #c61e18;
+	border-radius: .25em;
+	color: #f3d3b1;!important
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+ }
+ 
+ /*About Page CSS*/
+ #about a{
+	 	font-family: "Lato", sans-serif;
+		color: #f3d3b1;
+		padding: .5em;
+		background-position: center;
+		background-color: #607547;
+		border-radius: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+ }
+ 
+ #engine{
+	width: 150px;
+	padding: 1em;
+	margin-top: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ #shovel{
+	width: 150px;
+	padding: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ #tires{
+	 width: 150px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	margin-top: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ .chart{
+	 width: 500px;
+	 height: 340px;
+	 float: left;
+	 margin-left: 1em;
+	 margin-top: 1em;
+ }
+ 
+ /*Gallery Page CSS*/
+  h2{
+	 font-family: "Amaranth", sans-serif;
+	 text-transform: lowercase;
+	 color: #f3d3b1;
+	 text-align: center;
+	 font-size: 2em;
+ }
+ 
+ #main a{
+		font-family: "Lato", sans-serif;
+		color: #f3d3b1;
+		background-position: center;
+		background-color: #607547;
+		border-radius: 1em;
+		padding: .5em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		text-decoration: none;
+	}
+	
+ #albums a{
+		font-family: "Lato", sans-serif;
+		color: #f3d3b1;
+		padding: .5em;
+		background-position: center;
+		background-color: #607547;
+		border-radius: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+#pic{
+		width: 300px;
+		border-radius: 1em;
+		margin-top: 1em;
+}
+	
+#caption{
+	width: 500px;
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+}
+
+.hide{
+	display: none;
+}
+
+.status{
+	color: #718dab;!important
+}
+
+/*Reviews Page CSS*/
+
+#review a{
+		font-family: "Lato", sans-serif;
+		color: #f3d3b1;
+		padding: .5em;
+		background-position: center;
+		background-color: #607547;
+		border-radius: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+}
+
+#dynamic{
+	margin: 1em .5em;
+	padding: 2em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	background-position: center;
+	text-align: center;
+	float: left;
+}
+
+.mower{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+}
+
+/*Contact Page CSS*/
+label{
+	width:5em;
+	text-align: right;
+	display: inline-block;
+}
+
+fieldset{
+	padding: 1em;
+	color: #f3d3b1;
+	background-color: #607547;
+}
+
+form{
+	width: 40em;
+	padding: 1em;
+	margin-left: 160px;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+}
+
+form p{
+text-align: center;
+padding: 1em;	
+}
+
+.butt{
+	float: right;
+	font-family: "Lato", sans-serif;
+		color: #f3d3b1;
+		padding: .5em;
+		background-position: center;
+		background-color: #c61e18;
+		border-radius: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+}

@@ -1,0 +1,80 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrap{
+	background-color: #c61e18;
+	background-position: center;
+	margin: auto;
+	width: 1000px;
+	height: 500px;
+	border-radius: 1em;
+}
+
+nav{
+	height: 100px;
+	width: 1050px;
+	background-color: #607547;
+	position: fixed;
+	bottom: 0px;
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 1em;
+	padding-left: 6em;
+	margin-left: 5em;
+}
+
+ nav img{
+	  padding: 1em;
+ }
+ 
+ header{
+	 background-position: center;
+	 margin: 5em;
+ }
+ 
+ h1{
+	 font-family: "Amaranth", sans-serif;
+	 text-transform: uppercase;
+	 color: #f3d3b1;
+	 text-align: center;
+	 font-size: 2.5em;
+ }
+ 
+ .info{
+	width: 260px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ .vid{
+	width: 300px;
+	padding: 1em;
+	margin-left: 1em;
+	background-color: #f3d3b1;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+	float: left;
+ }
+ 
+ footer{
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 5em;
+	width: 1000px;
+	float: clear;
+	background-color: #c61e18;
+	border-radius: 1em;
+	color: #718dab;
+	font-family: 'Lato', sans-serif;
+ }

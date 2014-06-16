@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ajax Modules</title>
+</head>
+
+<body>
+
+    <div id="content1">
+        <p>
+        Customers rave about the smooth ride and powerful lawn-trimming bells and whistles. No more scratched fences or demolished gnomes! The Terrafirminator 2014 comes with extensions and add-ons for tight spaces and lawns decorated with a lot of fragile decor. Learn more on our <a href="about.php">about</a> page.
+        </p>
+        <a class="link1" href="index.php" title="info1">THANKS!</a>
+    </div>
+    
+    <div id="content2">
+        <p>
+         With unmatched speed and steering that can handle the sharpest curves imaginable, you will become a champion. View our <a href="gallery.php">image gallery</a> to see lawn mower racing in action.
+        </p>
+        <a class="link2" href="index.php" title="info2">THANKS!</a>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script>
+		
+		//Home Info Modules
+		$('.link1').click(function (e){
+			
+			e.preventDefault();
+			var module = e.target.title;
+			
+			$('#info1').fadeOut('fast', function(){
+				
+				$('#info1').load('index.php #' + module, //This equals modules.html #content1/2/3
+				
+				function(){$('#info1').fadeIn('fast');}
+				
+				);
+			
+			});
+			
+		});
+		
+		$('.link2').click(function (e){
+			
+			e.preventDefault();
+			var module = e.target.title;
+			
+			$('#info2').fadeOut('fast', function(){
+				
+				$('#info2').load('index.php #' + module, //This equals modules.html #content1/2/3
+				
+				function(){$('#info2').fadeIn('fast');
+				});
+			
+			});
+			
+		});
+			
+	</script>
+
+</body>
+</html>

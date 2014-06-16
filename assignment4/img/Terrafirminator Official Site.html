@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file://macintosh%20hd/Users/Xara/Desktop/assignment4/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Terrafirminator Official Site</title>
+
+<link href="./Terrafirminator Official Site_files/css" rel="stylesheet" type="text/css">
+
+<link href="./Terrafirminator Official Site_files/css(1)" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="./Terrafirminator Official Site_files/main.css">
+
+<!--<link rel="stylesheet" href="css/foundation.css" />-->
+
+</head>
+
+<body>
+	<nav>
+    
+    	<a href="./Terrafirminator Official Site_files/Terrafirminator Official Site.html"><img src="./Terrafirminator Official Site_files/home.png" alt="Home Button" onmouseover="this.src=&#39;img/home_hover.png&#39;" onmouseout="this.src=&#39;img/home.png&#39;"></a>
+        
+        <a href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/about.html"><img src="./Terrafirminator Official Site_files/about.png" alt="About Button" onmouseover="this.src=&#39;img/about_hover.png&#39;" onmouseout="this.src=&#39;img/about.png&#39;"></a>
+        
+        <a href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/gallery.html"><img src="./Terrafirminator Official Site_files/gallery.png" alt="Gallery Button" onmouseover="this.src=&#39;img/gallery_hover.png&#39;" onmouseout="this.src=&#39;img/gallery.png&#39;"></a>
+        
+        <a href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/reviews.html"><img src="./Terrafirminator Official Site_files/reviews.png" alt="Reviews Button" onmouseover="this.src=&#39;img/reviews_hover.png&#39;" onmouseout="this.src=&#39;img/reviews.png&#39;"></a>
+        
+        <a href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/contact.html"><img src="./Terrafirminator Official Site_files/contact.png" alt="Contact Button" onmouseover="this.src=&#39;img/contact_hover.png&#39;" onmouseout="this.src=&#39;img/contact.png&#39;"></a>
+        
+        <a href="https://www.facebook.com/GnomeoandJulietMovie/info"><img src="./Terrafirminator Official Site_files/facebook.png" alt="Facebook Button" onmouseover="this.src=&#39;img/facebook_hover.png&#39;" onmouseout="this.src=&#39;img/facebook.png&#39;"></a>
+        
+        <a href="http://www.twitter.com/"><img src="./Terrafirminator Official Site_files/twitter.png" alt="Twitter Button" onmouseover="this.src=&#39;img/twitter_hover.png&#39;" onmouseout="this.src=&#39;img/twitter.png&#39;"></a>
+        
+    </nav>
+    
+	<div id="wrap">
+    
+    	<header>
+        	<h1>The Terrafirminator</h1>
+        </header>
+        
+        
+            <div class="info">
+            
+                <p>Tasked with taming a troublesome lawn? You need power, precision steering and a machine that won't quit until the job is done! You need The Terrafirminator 2014. The Terrafirminator 2014 is the newest, fastest and most advanced lawnmower on the market. <a class="link" href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/modules.html#content1">MORE?</a></p>
+            
+            </div>
+            <div class="info">
+            
+            <p>The Terrafirminator 2014 is more than a lawn-conquering machine. It is a racer's dream. Lawn mower racing is an up-and-coming sport, as seen in the popular film <em>Gnomeo and Juliet</em>. If you want to wow the crowds and win every race. You need the Terrafirminator 2014. <a class="link" href="file://macintosh%20hd/Users/Xara/Desktop/assignment4/modules.html#content2">MORE?</a></p>
+            
+            </div>
+            
+            <div class="vid">
+            	
+                <iframe width="300" height="169" src="./Terrafirminator Official Site_files/Mc2iCjnTnN4.html" frameborder="0" allowfullscreen=""></iframe>
+            
+            </div>
+        
+	</div>
+    
+    <footer>
+        
+    	<p>Created for GWD238: Authoring for Interaction in Lab 228 with Troy Bennett at the Art Institue of Atlanta. This interactive project was created for educational purposes only. This site is not intended for commercial gain or as a source of public information. <strong>©Sydney Bri Designs 2014</strong></p>
+        
+    </footer>
+    
+    <script src="./Terrafirminator Official Site_files/jquery.min.js"></script>
+	
+	<script>
+	
+		$('.link').click(function (e){
+			
+			e.preventDefault();
+			var module = e.target.title;
+			
+			$('.info').fadeOut('fast', function(){
+				
+				$('.info').load('modules.html #' + module, //This equals modules.html #content1/2/3
+				function(){$('.info').fadeIn('slow');
+				});
+			
+			});
+			
+		});
+			
+	</script>
+    
+
+
+</body></html>
